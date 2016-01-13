@@ -7,7 +7,10 @@
    3)n比m要大
    ...
    要求你们自己实现一个mySlice的方法(在内置的原型上),实现和内置slice一模一样的功能操作
-   Array.prototype.mySlice=function(){//this->当前要操作的数组}
+   Array.prototype.mySlice=function  mySlice(){//this->当前要操作的数组
+
+   
+}
 
 2、扩展作业(链式写法)
    实现 (5).plus(3).minus(2) ->5+3-2
