@@ -86,8 +86,8 @@
     </li>-->
 </ul>
 
-<script charset="utf-8" type="text/javascript" src="js/json.js"></script>
-<script charset="utf-8" type="text/javascript" src="js/utils.js"></script>
+<script charset="utf-8" type="text/javascript" src="json.js"></script>
+<script charset="utf-8" type="text/javascript" src="utils.js"></script>
 <script type="text/javascript">
     //->思路
     //开始的时候,让img的src为默认图片,在给其设置一个自定义属性trueImg存放的是真实图片的地址,当符合我们条件的时候,开始加载真实的图片,然后在赋值给img的src属性
@@ -99,7 +99,7 @@
         for (var i = 0; i < dataAry.length; i++) {
             var cur = dataAry[i];
             str += "<li>";
-            str += "<div class='left'><img src='img/default.jpg' trueImg='" + cur["logo"] + "'/></div>";
+            str += "<div class='left'><img src='default.jpg' trueImg='" + cur["logo"] + "'/></div>";
             str += "<div class='right'>";
             str += "<h2>" + cur["title"] + "</h2>";
             str += "<p>" + cur["desc"] + "</p>";
